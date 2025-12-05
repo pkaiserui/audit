@@ -43,7 +43,7 @@ This React Native health solutions app has a solid foundation with modern patter
 **Location:** `src/utils/constants.ts`
 
 ```typescript
-export const GOOGLE_MAP_APIKEY = 'SEE REPO';
+export const GOOGLE_MAP_APIKEY = 'AIzaSyCWbsC3b6QgedZG8VQe2ux5lovNGxTptZM';
 ```
 
 **Issue:** Google Maps API key is hardcoded and committed to source control. This exposes the key to anyone with access to the repository and can lead to unauthorized usage and billing.
@@ -560,42 +560,42 @@ Run `npm audit` to check for known vulnerabilities in dependencies.
 
 | Task | Priority | Effort |
 |------|----------|--------|
-| Move secrets to environment variables | P0 | 2 hours |
-| Replace AsyncStorage with secure storage for tokens | P0 | 4 hours |
-| Remove all console.log statements | P0 | 2 hours |
-| Remove hardcoded test credentials | P0 | 30 min |
-| Switch API to HTTPS | P0 | 1 hour |
+| Move secrets to environment variables | P0 |
+| Replace AsyncStorage with secure storage for tokens | P0 |
+| Remove all console.log statements | P0 | 
+| Remove hardcoded test credentials | P0 | 
+| Switch API to HTTPS | P0 |
 
 ### Short-term Actions
 
 | Task | Priority | Effort |
 |------|----------|--------|
-| Enable TypeScript strict mode | P1 | 8 hours |
-| Fix `any` types (169 occurrences) | P1 | 16 hours |
-| Add unit tests for Redux (target 60%) | P1 | 16 hours |
-| Add component tests | P1 | 16 hours |
-| Complete navigation type definitions | P1 | 4 hours |
-| Fix typos in filenames | P1 | 1 hour |
+| Enable TypeScript strict mode | P1 | 
+| Fix `any` types (169 occurrences) | P1 | 
+| Add unit tests for Redux (target 60%) | P1 | 
+| Add component tests | P1 | 
+| Complete navigation type definitions | P1 | 
+| Fix typos in filenames | P1 |
 
 ### Medium-term Actions 
 
 | Task | Priority | Effort |
 |------|----------|--------|
-| Add `React.memo` to list components | P2 | 4 hours |
-| Replace inline styles with StyleSheet | P2 | 8 hours |
-| Add E2E testing with Detox | P2 | 24 hours |
-| Replace `moment` with `date-fns` | P2 | 4 hours |
-| Remove deprecated/redundant packages | P2 | 2 hours |
-| Implement error boundaries | P2 | 4 hours |
+| Add `React.memo` to list components | P2 | 
+| Replace inline styles with StyleSheet | P2 | 
+| Add E2E testing with Detox | P2 | 
+| Replace `moment` with `date-fns` | P2 | 
+| Remove deprecated/redundant packages | P2 | 
+| Implement error boundaries | P2 | 
 
 ### Long-term Actions
 
 | Task | Priority | Effort |
 |------|----------|--------|
-| Add performance monitoring | P3 | 8 hours |
-| Implement code splitting | P3 | 8 hours |
-| Add accessibility (a11y) support | P3 | 16 hours |
-| Set up CI/CD with automated testing | P3 | 16 hours |
+| Add performance monitoring | P3 | 
+| Implement code splitting | P3 | 
+| Add accessibility (a11y) support | P3 | 
+| Set up CI/CD with automated testing | P3 | 
 
 ---
 
