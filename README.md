@@ -43,7 +43,7 @@ This React Native health solutions app has a solid foundation with modern patter
 **Location:** `src/utils/constants.ts`
 
 ```typescript
-export const GOOGLE_MAP_APIKEY = 'AIzaSyCWbsC3b6QgedZG8VQe2ux5lovNGxTptZM';
+export const GOOGLE_MAP_APIKEY = 'SEE REPO';
 ```
 
 **Issue:** Google Maps API key is hardcoded and committed to source control. This exposes the key to anyone with access to the repository and can lead to unauthorized usage and billing.
